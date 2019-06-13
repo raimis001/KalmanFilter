@@ -5,6 +5,7 @@ Implementing simple Kalman Filter based on
 https://en.wikipedia.org/wiki/Kalman_filter#Underlying_dynamical_system_model
 
 Using
+```
 int filterId;
 float kalmanData;
 void Start() 
@@ -16,3 +17,4 @@ void Update()
 {
   kalmanData = KalmanFilter.GetValue(filterId, newData);
 }
+```
